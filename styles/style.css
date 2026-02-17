@@ -60,7 +60,6 @@ ol {
 
 .result {
   width: 711px;
-  height: 456px;
 }
 
 .result__video-container {
@@ -111,7 +110,7 @@ ol {
   letter-spacing: -0.15px;
   color: #fff;
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   border-left: none;
   border-right: none;
   width: 225px;
@@ -161,7 +160,7 @@ ol {
 
 .button {
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -214,7 +213,7 @@ ol {
   position: relative;
   display: grid;
   height: 298px;
-  overflow-y: scroll;
+  overflow-y: auto;
   gap: 30px;
 }
 
